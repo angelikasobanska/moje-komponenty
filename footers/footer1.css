@@ -1,0 +1,73 @@
+*{
+    box-sizing:border-box;
+}
+
+.wrapper
+{
+    position:relative;
+    min-height:100vh;
+   padding-bottom:7rem;
+
+}
+
+
+footer
+{
+    width:100vw;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color:hsl(60, 22%, 10%);
+    height:7rem;
+    text-align:center;
+
+}
+
+
+.links
+{
+    line-height: 1.8rem;
+    letter-spacing: .4rem;
+    padding-top:1.2rem;
+}
+
+.links a
+{
+    color:hsl(0, 70%, 60%);
+}
+
+.links a:hover
+{
+    color:hsl(0, 70%, 80%);
+}
+
+ footer small
+{
+    color:white;
+    letter-spacing: .025rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    display: block;
+}
+
+.foot-nav
+{
+    line-height:1.8rem;
+    letter-spacing:.3rem;
+}
+
+.foot-nav a
+{
+    text-decoration:none;
+    color:white;
+    
+}
+
+.foot-nav a:hover
+{
+    color:hsl(0, 70%, 80%);
+}
+
+
+
+
